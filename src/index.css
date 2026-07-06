@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jaldi", sans-serif;
+  font-weight: bold;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    /* These properties ensure the background behaves perfectly global-wide */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+:root{
+    --gon-background: #F7C697;
+    --gon-border: #F19D4D;
+    --gon-header: #FDEFE1;
+    --font-white: #FFFFFF;
+    --gon-font: #F19D4D;
+    --default-font-size: clamp(1rem, 2.5vw, 4rem);
+    --titles-font-size: clamp(2rem, 3.5vw, 6rem)
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+[data-theme='gon'] {
+    --gon-background: #F7C697;
+    --gon-border: #F19D4D;
+    --gon-font: #F19D4D;
+    --gon-header: #FDEFE1;
+    --profile: url('./assets/sonas/gon.jpg');
+    background-image: url('./assets/backgrounds/background.png');
+}
+
+[data-theme='banshee'] {
+    --gon-background: #480576;
+    --gon-font: white;
+    --gon-border: #30034E;
+    --gon-header: #121013;
+    --profile: url('./assets/sonas/banshee.png');
+    background-color: grey;
+    background-image: none;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.content-container{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    border-radius: 0 0 20px 20px;
+    border: solid 3px var(--gon-border);
+    background-color: var(--gon-background);
+}
+
+.content-container h2{
+    font-size: var(--titles-font-size);
+    color: var(--font-white);
+    margin: 2rem 0;
+}
+
+
+.bg{
+    background-image: url(assets/backgrounds/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50rem;
+    height: 50rem;
+}

@@ -1,0 +1,31 @@
+/***************************
+ABOUT CONTAINER
+****************************/
+
+.about-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--gon-header);
+    border: solid 5px var(--gon-border);
+}
+
+.about-container img {
+    width: clamp(8rem, 20vw,30rem);
+    height: clamp(8rem, 20vw,30rem);
+}
+
+.about-container p{
+    color: var(--gon-font);
+    font-size: var(--default-font-size);
+}
+
+@media (max-width: 600px) {
+    .about-container{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

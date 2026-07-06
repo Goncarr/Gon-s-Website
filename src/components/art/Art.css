@@ -1,0 +1,44 @@
+/***************************
+ART CONTAINER
+****************************/
+.art-container{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--gon-header);
+    border: solid 5px var(--gon-border);
+    flex-wrap: wrap;
+}
+
+.art-container img {
+    width: clamp(8rem, 15vw, 20rem);
+    height: clamp(8rem, 15vw, 20rem);
+    border-radius: 10px;
+    border: solid 3px var(--gon-border);
+}
+
+.art-container a{
+    color: var(--gon-font);
+    font-size: var(--default-font-size);
+    text-decoration: none;
+}
+
+/***************************
+ARTIST CONTAINER
+****************************/
+.artist-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.artist-container:hover{
+    transform: scale(1.05);
+}

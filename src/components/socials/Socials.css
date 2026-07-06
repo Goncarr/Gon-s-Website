@@ -1,0 +1,21 @@
+/***************************
+SOCIALS
+****************************/
+.socials-container{
+    display: flex;
+}
+
+a img{
+    width: clamp(2rem,3.5vw,5rem);
+    height: clamp(2rem,3.5vw,5rem);
+    transition: .3s;
+}
+
+a img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    width: 100%;
+}
