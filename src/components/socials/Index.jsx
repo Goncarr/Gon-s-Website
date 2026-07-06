@@ -8,31 +8,31 @@ export default function Socials(){
             <div id="socials" className="socials-container">
                 <a href="https://x.com/TayCaralho">
                     <img 
-                        src="./src/assets/socials/twitter.png" 
+                        src="socials/twitter.png" 
                         alt="Twitter">
                     </img>
                 </a>
                 <a href="https://www.instagram.com/goncarr_">
                     <img 
-                        src="./src/assets/socials/instagram.png" 
+                        src="socials/instagram.png" 
                         alt="Intagram">
                     </img>
                 </a>
                 <a href="https://www.tiktok.com/@igoncarri">
                     <img 
-                        src="./src/assets/socials/tiktok.png" 
+                        src="socials/tiktok.png" 
                         alt="tiktok">
                     </img>
                 </a>
                 <a href="">
                     <img 
-                        src="./src/assets/socials/discord.png" 
+                        src="socials/discord.png" 
                         alt="Discord">
                     </img>
                 </a>
                 <a href="https://steamcommunity.com/profiles/76561198238322316/">
                     <img 
-                        src="./src/assets/socials/steam.png" 
+                        src="socials/steam.png" 
                         alt="Steam">
                     </img>
                 </a>

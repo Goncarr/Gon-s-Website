@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import { aboutMe } from './about'
+import { aboutMe } from './About'
 import { useState } from 'react'
 
 export default function AboutMe({sonaUpdate}){

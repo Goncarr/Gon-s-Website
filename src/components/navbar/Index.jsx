@@ -20,11 +20,11 @@ export default function NavBar({sonaUpdate}){
                             {dropMenu &&(
                                 <div className="dropdown-content">
                                     <p onClick={(e) => handleThemeChange('banshee')}>
-                                        <img src="./src/assets/sonas/banshee.png" alt="Banshee" />
+                                        <img src="sonas/banshee.png" alt="Banshee" />
                                         Banshee
                                     </p>
                                     <p onClick={(e) => handleThemeChange('gon')}>
-                                        <img src="./src/assets/sonas/gon.jpg" alt="Gon" />
+                                        <img src="sonas/gon.jpg" alt="Gon" />
                                         Gon
                                     </p>
                                 </div>
